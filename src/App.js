@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Phone from "./components/Phone.js";
+function App(props) {
+	return (
+		<div>
+			<Phone
+				imageLink="https://m.media-amazon.com/images/I/71KCwNV6MuL._SL1500_.jpg"
+				phoneName="OPPO A31 (Mystery Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers"
+				price="₹12,990.00"></Phone>
+			<Phone
+				imageLink="https://m.media-amazon.com/images/I/71geVdy6-OS._SL1500_.jpg"
+				phoneName="OPPO A74 5G (Fantastic Purple,6GB RAM,128GB Storage) - 5G Android Smartphone | 5000 mAh Battery | 18W Fast Charge | 90Hz LCD Display"
+				price="₹16,990.00"></Phone>
+			<Phone
+				imageLink="https://m.media-amazon.com/images/I/61xXPX7Mv0L._SL1500_.jpg"
+				phoneName="OPPO F19s (Glowing Gold, 6GB RAM, 128 Storage) with No Cost EMI/Additional Exchange Offers"
+				price="₹19,990.00"></Phone>
+			<Phone
+				imageLink="https://m.media-amazon.com/images/I/7125Jc1FDrL._SL1500_.jpg"
+				phoneName="OPPO A55 (Starry Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers"
+				price="₹17,490.00"></Phone>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+			<Phone
+				imageLink="https://m.media-amazon.com/images/I/71k86pEH5LS._SL1500_.jpg"
+				phoneName="Oppo A54 (Starry Blue, 4GB RAM, 128GB Storage) with No Cost EMI & Additional Exchange Offers"
+				price="₹14,990.00"></Phone>
+		</div>
+	);
 }
 
 export default App;
