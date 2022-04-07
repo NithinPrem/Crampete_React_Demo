@@ -6,7 +6,6 @@ function App(props) {
 	return (
 		<div>
 			<Unsplash></Unsplash>
-
 			<hr />
 			<hr />
 			<hr />

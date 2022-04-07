@@ -59,7 +59,7 @@ function Unsplash(props) {
 				{results.map((image) => (
 					<img
 						src={image.urls.small}
-						alt={image.description}
+						alt={image.alt_description}
 					/>
 				))}
 				<br />
