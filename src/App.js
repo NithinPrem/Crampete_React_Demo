@@ -1,5 +1,6 @@
-import Phone from "./components/Phone.js";
-import Unsplash from "./components/Unsplash.js";
+import Phone from "./components/Phone/Phone";
+import Unsplash from "./components/Unsplash/Unsplash.js";
+import Weather from "./components/Weather/Weather.js";
 import "./styles.css";
 
 function App(props) {
@@ -12,7 +13,13 @@ function App(props) {
 			<hr />
 			<hr />
 			<hr />
-
+			<Weather></Weather>
+			<hr />
+			<hr />
+			<hr />
+			<hr />
+			<hr />
+			<hr />
 			<h1>Card component</h1>
 			<Phone
 				className="body"
