@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Crampete_React_Demo/static/css/main.f51163c6.css",
-    "main.js": "/Crampete_React_Demo/static/js/main.124d2d38.js",
+    "main.css": "/Crampete_React_Demo/static/css/main.d58fb13e.css",
+    "main.js": "/Crampete_React_Demo/static/js/main.ac7209fd.js",
     "index.html": "/Crampete_React_Demo/index.html",
-    "main.f51163c6.css.map": "/Crampete_React_Demo/static/css/main.f51163c6.css.map",
-    "main.124d2d38.js.map": "/Crampete_React_Demo/static/js/main.124d2d38.js.map"
+    "main.d58fb13e.css.map": "/Crampete_React_Demo/static/css/main.d58fb13e.css.map",
+    "main.ac7209fd.js.map": "/Crampete_React_Demo/static/js/main.ac7209fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.f51163c6.css",
-    "static/js/main.124d2d38.js"
+    "static/css/main.d58fb13e.css",
+    "static/js/main.ac7209fd.js"
   ]
 }
