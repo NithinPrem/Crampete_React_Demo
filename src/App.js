@@ -20,7 +20,12 @@ function App(props) {
 			<hr />
 			<hr />
 			<hr />
-			<h1>Card component</h1>
+			<h1 className="textCenter">Card component</h1>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
 			<Phone
 				className="body"
 				imageLink="https://m.media-amazon.com/images/I/71KCwNV6MuL._SL1500_.jpg"
