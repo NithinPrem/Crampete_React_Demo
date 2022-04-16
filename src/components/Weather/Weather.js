@@ -5,8 +5,7 @@ import styles from "./Weather.module.css";
 const Weather = () => {
 	const [input, setinput] = useState("");
 	const [result, setresult] = useState({});
-	const [id, setid] =
-		useState(`cb7bc640cc9387d1849f886a3d2092aa
+	const [id] = useState(`cb7bc640cc9387d1849f886a3d2092aa
 `);
 
 	const weatherhandleChange = (e) => {

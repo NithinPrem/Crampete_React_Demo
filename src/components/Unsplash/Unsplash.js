@@ -5,7 +5,7 @@ import style from "./Unsplash.module.css";
 function Unsplash(props) {
 	const [inputValue, SetinputValue] = useState("");
 	const [results, Setresults] = useState([]);
-	const [id, Setid] = useState(
+	const [id] = useState(
 		"DSkPKYElcOhOjXGWTEbZm_l1cnTKQSBU1nOIW2-DCTY"
 	);
 
