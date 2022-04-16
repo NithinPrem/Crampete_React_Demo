@@ -1,0 +1,17 @@
+.h2 {
+	color: #0be22f;
+}
+.h3 {
+	color: #c368ff;
+}
+.h4 {
+	color: #ff0000;
+}
+
+.cardBody {
+	border: 5px solid rgb(17, 0, 255);
+	text-align: center;
+	padding: 1rem;
+	cursor: pointer;
+	margin-bottom: 2rem;
+}

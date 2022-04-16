@@ -1,0 +1,30 @@
+.h1 {
+	color: #ff0000;
+}
+input {
+	margin: 2rem 0 0 0;
+	font-size: 1.5rem;
+	border-radius: 0.5rem;
+	outline: none;
+}
+input:focus-within {
+	filter: drop-shadow(0 5px 6px #000000);
+}
+.btn {
+	padding: 1rem 2rem;
+	border: none;
+	font-size: 1.5rem;
+	color: #fff;
+	background-color: #2bff00;
+	border-radius: 1rem;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #00ffb3;
+	transition: all 0.3s ease-in-out;
+}
+
+.card {
+	text-align: center;
+	padding: 1rem;
+}

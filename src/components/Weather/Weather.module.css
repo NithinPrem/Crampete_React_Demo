@@ -1,0 +1,41 @@
+h1 {
+	color: #a200ff;
+}
+.h1bold {
+	color: #25ff99;
+	font-weight: bolder;
+	padding-top: 1.5rem;
+}
+h2 {
+	color: #ffffff;
+	font-weight: bold;
+	margin: 0;
+	line-height: 1.3;
+	padding: 1rem 0;
+}
+.container {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card {
+	text-align: center;
+	padding: 1rem;
+}
+
+.btn {
+	padding: 1rem 2rem;
+	border: none;
+	font-size: 1.5rem;
+	color: #fff;
+	background-color: #2bff00;
+	border-radius: 1rem;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #00ffb3;
+	transition: all 0.3s ease-in-out;
+}
+input:focus-within {
+	filter: drop-shadow(0 5px 6px #000000);
+}
