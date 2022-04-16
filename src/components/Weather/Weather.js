@@ -87,7 +87,7 @@ const Weather = () => {
 					) : null}
 
 					{result.main ? (
-						<h2>Humidity : {result.main.humidity}&deg;C</h2>
+						<h2>Humidity : {result.main.humidity}%</h2>
 					) : null}
 
 					{result.weather ? (
